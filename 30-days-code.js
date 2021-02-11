@@ -88,6 +88,25 @@
 //   }
 // }
 
+// // DAY 6
+
+// // take a string, iterate thru and output even indices, + ' ' + odd indices so each string looks like "secret/scrambled code"
+
+// // i hate that i needed so much help with this. had to split input into separate lines and remove the first input which was an integer. i couldn't use a typeof 'string' conditional to only work with strings.  had to iterate thru the list of inputs and then iterate thru each string
+
+// function processData(input) {
+//   let newInput = input.split('\n').slice(1)
+
+//   newInput.forEach(str => {
+//       let evenStr = []
+//       let oddStr = []
+//       for(let i = 0; i < str.length; i++) {
+//             [i]%2 === 0? evenStr.push(str[i]) : oddStr.push(str[i])  
+//   }   
+//   console.log(evenStr.join('') + (' ') + oddStr.join(''))
+//   })    
+// } 
+
 
 
 
