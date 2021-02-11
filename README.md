@@ -1,0 +1,1 @@
+Everything written here is/are code solutions from Hackerrank's 30 Days of JS/daily challenge, taken in 2021.
