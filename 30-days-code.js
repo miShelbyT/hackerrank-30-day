@@ -107,6 +107,44 @@
 //   })    
 // } 
 
+// DAY 7
+// Print the elements of array in reverse order as a single line of space-separated numbers.
 
+// // pre-provided code to do some initial formatting of  the input 
+// // const arr = readLine().split(' ').map(arrTemp => parseInt(arrTemp, 10));
+    
+// // SOLUTION - this one was super easy:
+//     console.log(arr.reverse().join(" "))
 
+// // DAY 8 - Dictionaries and Maps
+
+// // Task
+// // Given  names and phone numbers, assemble a phone book that maps friends' names to their respective phone numbers. You will then be given an unknown number of names to query your phone book for. For each  queried, print the associated entry from your phone book on a new line in the form name=phoneNumber; if an entry for  is not found, print Not found instead.
+
+// // Note: Your phone book should be a Dictionary/Map/HashMap data structure.
+
+// // tbh this one was too difficult for me, the solution was provided by another code taker. i need to learn more about new Map and its associated functions
+
+// function processData(input) {
+  
+//   let tempArray = input.split("\n");
+//   let entriesLength = tempArray.splice(0, 1); //get the number of entries out of the array - this becomes the num that we iterate thru
+ 
+  
+//   let queries = tempArray.splice(entriesLength); //puts the queries into their own array
+
+//   for (var i = 0; i < entriesLength; i++) {
+//     tempArray[i] = tempArray[i].split(" ");//split the names from the phones to prepare for mapping
+//   }
+  
+//   let phoneBookMap = new Map(tempArray);//turn the array into a map
+  
+//   for (var i = 0; i < queries.length; i++) {
+//     if (phoneBookMap.has(queries[i])) {//check if the query (name) exists in the phone book 
+//       console.log(queries[i] + "=" + phoneBookMap.get(queries[i]));
+//     } else {
+//       console.log("Not found");
+//     }
+//   }
+// }
 
