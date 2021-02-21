@@ -128,17 +128,14 @@
 // function processData(input) {
   
 //   let tempArray = input.split("\n");
-//   let entriesLength = tempArray.splice(0, 1); //get the number of entries out of the array - this becomes the num that we iterate thru
- 
-  
+//   let entriesLength = tempArray.splice(0, 1); //removes and returns the number of entries from the array - this becomes the num that we will iterate thru
 //   let queries = tempArray.splice(entriesLength); //puts the queries into their own array
-
-//   for (var i = 0; i < entriesLength; i++) {
+  
+//   for (let i = 0; i < entriesLength; i++) {
 //     tempArray[i] = tempArray[i].split(" ");//split the names from the phones to prepare for mapping
 //   }
   
 //   let phoneBookMap = new Map(tempArray);//turn the array into a map
-  
 //   for (var i = 0; i < queries.length; i++) {
 //     if (phoneBookMap.has(queries[i])) {//check if the query (name) exists in the phone book 
 //       console.log(queries[i] + "=" + phoneBookMap.get(queries[i]));
@@ -148,3 +145,61 @@
 //   }
 // }
 
+// // DAY 9
+// // recursion! which we just learned in CS's algo course. return a factorial using a recursive function. requires base case and calling factorial(n-1), in this case. multiplying n * factorial(n - 1) takes us to n = 1, at which point the function returns 1 and ends. Everything multiplied returns the factorial. being careful to end before 0 because anything * 0 === 0
+
+// function factorial(n) {
+//   if(n === 1) return 1;
+//   return n * factorial(n - 1)
+
+//   }
+
+// // DAY 10
+// // convert base 10 number to binary maybe use sliding window approach to find max consecutive 1s in binary number? -- NOT
+
+
+// function main(n) {
+//   // first convert to binary, call .split() and remove the 0s, the resulting array will be grouped by 1s
+//   let binaryNum = n.toString(2).split('0')
+//   // take the longest of the groupings within the array
+//   let binaryNumLongest = Math.max(...binaryNum)
+//   // call .toString() again because Math.max() takes the largest number and also converts to an integer - once it is converted back to a string we can call .length() on it
+//   return binaryNumLongest.toString().length
+// }
+
+// console.log(main(100))
+
+// // DAY 11 - again i was utterly unable to figure out this solution on my own. i only partially understand what this code is doing. i DO understand that in the second/third for loops you go thru each quarter of the "board" , hence i (or j) < 4. i also understand that you are adding each index to find out the hourglass sum.
+
+// but i am confused...i thought we were to avoid nested loops as much as humanly possible due to the time complexity.
+
+// function main() {
+//   let arr = [];
+//   for(let arr_i = 0; arr_i < 6; arr_i++){
+//      arr[arr_i] = readLine().split(' ');
+//      arr[arr_i] = arr[arr_i].map(Number);
+//   }
+
+//   //setting highestSum initially to -63 because that is lowest possible outcome for hourglass.
+//   //-9 -9 -9
+//   //   -9
+//   //-9 -9 -9
+//   // = -63
+//   var highestSum = -63;
+//   var tempSum = 0;
+//   for(let i = 0; i < 4; i++) {
+//       for(let j = 0; j < 4; j++) {           
+//           tempSum = arr[i][j] + arr[i][j+1] + arr[i][j+2] + arr[i+1][j+1] + arr[i+2][j] + arr[i+2][j+1] + arr[i+2][j+2];
+//           if(tempSum > highestSum) {
+//               highestSum = tempSum;           
+//           }
+//       }
+//   }
+  
+//   console.log(highestSum);
+// }
+
+
+
+
+console.log("hi shelby!")
