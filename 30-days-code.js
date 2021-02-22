@@ -199,7 +199,108 @@
 //   console.log(highestSum);
 // }
 
+// // DAY 12
+// You are given two classes, Person and Student, where Person is the base class and Student is the derived class. Completed code for Person and a declaration for Student are provided for you in the editor. Observe that Student inherits all the properties of Person.
 
+// Complete the Student class by writing the following:
 
+// A Student class constructor, which has  parameters:
+// A string, firstName.
+// A string, lastName.
+// An integer, idNumber.
+// An integer array (or vector) of test scores, scores.
+// A char calculate() method that calculates a Student object's average and returns the grade character representative of their calculated average:
 
-console.log("hi shelby!")
+// Note: something about how i wrote my switch statement was wrong or the pre-existing code just didn't like it. the if/else worked just fine.
+
+// // Write your constructor here
+// NOTE: super takes properties from inherited class and implements them in child
+// constructor(firstName, lastName, idNumber, scores) {
+//   super(firstName, lastName, idNumber)
+//   this.scores = scores
+// }
+// NOTE: we leave out the function keyword inside of Classes.
+// calculate() {
+//   let total = this.scores.reduce((accumulator, currentValue) => accumulator + currentValue)
+  
+//   let average = total / this.scores.length
+  
+//   if (average >= 90) {
+//       return 'O'
+//   } else if (average >= 80) {
+//       return 'E'
+//   } else if (average >= 70) {
+//       return 'A'
+//   } else if (average >= 55) {
+//       return 'P'
+//   } else if (average >= 40) {
+//       return 'D'
+//   } else {
+//       return 'T'
+//   } 
+// }
+  
+//   // switch(average) {
+//   // case average >= 90 && average <=100:
+//   // return "O"
+//   // break;
+//   // case average >= 80 && average <90:
+//   // return "E"
+//   // break;
+//   // case average >= 70 && average <80:
+//   // return "A"
+//   // break;
+//   // case average >= 55 && average <70:
+//   // return "P"
+//   // break;
+//   // case average >= 40 && average <55:
+//   // return "D"
+//   // break;
+//   // case average > 40:
+//   // return "T"
+//   // }
+// //     }
+
+// // }
+
+// // DAY 13 - thank God for video learning that is helping me recall that we were VERY briefly introduced to vanilla JS classes!!!
+
+//  // Declare your class here.
+//  class MyBook extends Book {
+//   /**   
+//   *   Class Constructor
+//   *   
+//   *   @param title The book's title.
+//   *   @param author The book's author.
+//   *   @param price The book's price.
+//   **/
+//   // Write your constructor here
+  
+//   constructor(title, author, price){
+//       super(title, author, price)
+//       this.title = title
+//       this.author = author
+//       this.price = price
+//   }
+  
+  
+//   /**   
+//   *   Method Name: display
+//   *   
+//   *   Print the title, author, and price in the specified format.
+//   **/
+//   // Write your method here
+  
+
+// display() {
+//     console.log(`Title: ${this.title}`)
+//     console.log(`Author: ${this.author}`)
+//     console.log(`Price: ${this.price}`) 
+// }  
+  
+  
+  // // End class
+  
+// }
+
+// DAY 14
