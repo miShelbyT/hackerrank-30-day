@@ -60,7 +60,7 @@
 //       age = 0
 //       console.log("Age is not valid, setting age to 0.")
 //   }
-  
+
 // this.amIOld=function(){
 //     if(age < 13) {
 //         console.log("You are young.")
@@ -112,7 +112,7 @@
 
 // // pre-provided code to do some initial formatting of  the input 
 // // const arr = readLine().split(' ').map(arrTemp => parseInt(arrTemp, 10));
-    
+
 // // SOLUTION - this one was super easy:
 //     console.log(arr.reverse().join(" "))
 
@@ -126,15 +126,15 @@
 // // tbh this one was too difficult for me, the solution was provided by another code taker. i need to learn more about new Map and its associated functions
 
 // function processData(input) {
-  
+
 //   let tempArray = input.split("\n");
 //   let entriesLength = tempArray.splice(0, 1); //removes and returns the number of entries from the array - this becomes the num that we will iterate thru
 //   let queries = tempArray.splice(entriesLength); //puts the queries into their own array
-  
+
 //   for (let i = 0; i < entriesLength; i++) {
 //     tempArray[i] = tempArray[i].split(" ");//split the names from the phones to prepare for mapping
 //   }
-  
+
 //   let phoneBookMap = new Map(tempArray);//turn the array into a map
 //   for (var i = 0; i < queries.length; i++) {
 //     if (phoneBookMap.has(queries[i])) {//check if the query (name) exists in the phone book 
@@ -195,7 +195,7 @@
 //           }
 //       }
 //   }
-  
+
 //   console.log(highestSum);
 // }
 
@@ -222,9 +222,9 @@
 // NOTE: we leave out the function keyword inside of Classes.
 // calculate() {
 //   let total = this.scores.reduce((accumulator, currentValue) => accumulator + currentValue)
-  
+
 //   let average = total / this.scores.length
-  
+
 //   if (average >= 90) {
 //       return 'O'
 //   } else if (average >= 80) {
@@ -239,7 +239,7 @@
 //       return 'T'
 //   } 
 // }
-  
+
 //   // switch(average) {
 //   // case average >= 90 && average <=100:
 //   // return "O"
@@ -275,32 +275,40 @@
 //   *   @param price The book's price.
 //   **/
 //   // Write your constructor here
-  
+
 //   constructor(title, author, price){
 //       super(title, author, price)
 //       this.title = title
 //       this.author = author
 //       this.price = price
 //   }
-  
-  
+
+
 //   /**   
 //   *   Method Name: display
 //   *   
 //   *   Print the title, author, and price in the specified format.
 //   **/
 //   // Write your method here
-  
+
 
 // display() {
 //     console.log(`Title: ${this.title}`)
 //     console.log(`Author: ${this.author}`)
 //     console.log(`Price: ${this.price}`) 
 // }  
-  
-  
-  // // End class
-  
+
+
+// // End class
+
 // }
 
-// DAY 14
+// DAY 14 - not available is Javascript so skipping!
+
+// DAY 15
+
+
+
+
+
+
