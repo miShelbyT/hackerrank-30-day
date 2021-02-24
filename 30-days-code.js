@@ -305,7 +305,77 @@
 
 // DAY 14 - not available is Javascript so skipping!
 
-// DAY 15
+// // DAY 15 - need more practice with linked lists, thank god for CS course!!!
+
+// this.insert=function(head,data){
+//   //complete this method
+//   let newNode = new Node(data)
+//   if(head == null) {
+//       head = newNode
+//   } else if (head.next == null){
+//        head.next = newNode
+//   } else  {
+//     // recursion!!! don't forget about head.next or we hit max callstack!!!
+//       this.insert(head.next, data)
+      
+//   }
+//   return head
+// };
+
+// // DAY 16 try/catch
+// // NOTE about console.log vs console.error: console. error() writes to stderr , whereas console. log() writes to stdout as described in the doc. In a default run of nodejs, both stdout and stderr go to the console, but obviously, they could be directed different places and could be used differently.
+
+// // i love a ternary!!! however the instructions were not to use a conditional and isn't a ternary a conditional? as per MDN, YES.
+// function main() {
+//   const S = readLine();
+  
+//   try{
+//       isNaN(Number(S)) ? error: console.log(parseInt(S))
+//   } catch(error) {
+//       console.log("Bad String")
+//   }
+// }
+
+// // DAY 17 throw (error)
+// // i keep forgetting about Math.pow() and keep using (n ** p). Math.pow() is sexier. Also using (n ** p) returned random undefineds.  not sure why...
+
+// class Calculator{
+//   constructor(n,p){
+//       this.n = n;
+//       this.p = p
+//   }
+  
+//   power(n, p){
+//       if(n < 0 || p < 0) {
+//           throw "n and p should be non-negative"
+//       } else return Math.pow(n,p)
+//   }
+// }
+
+// // DAY 18 - .pop() .push() .shift() .unshift()
+// // i'd have rather done this recursively but i guess this is a good exercise - would have been nice to know in advance that this was a class and thus needed the this keyword
+
+// function Solution(){
+//   //Write your code here
+//   let stack = []
+//   let queue = []
+  
+//   this.pushCharacter = char => stack.push(char)
+//     //   pushes a character onto a stack.
+
+  
+//   this.enqueueCharacter = (char) => queue.push(char)
+//     //   enqueues a character in the queue instance variable
+
+  
+//   this.popCharacter = () => stack.pop()
+//     //   method that pops and returns the character at the top of the stack
+  
+  
+// this.dequeueCharacter = () => queue.shift()
+// //  dequeues and returns the first character in the queue instance variable.
+ 
+// } DAY 19 - no solution for Javascript so skipping!
 
 
 
