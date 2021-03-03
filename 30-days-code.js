@@ -4,7 +4,9 @@
 //  let f;
 //  let st;
 //      // Read and save an integer, double, and String to your variables.
-//     //  did not know at first what readLine was. still getting used to hackerrank
+//     //  did not know at first what readLine was. still getting used to hackerrank 
+// NOTE: following up - - - - readLine() was the function created by HR in their stubcode!!!!!
+
 //      // console.log(i)
 //      // console.log(d)
 //      // console.log(s)
