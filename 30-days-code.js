@@ -377,8 +377,36 @@
  
 // } DAY 19 - no solution for Javascript so skipping!
 
+// //  DAY 20 implement bubble sort!! add total number of swaps to print to console. the code didn't care for an external/helper swap function so i went ahead and implemented it sort of anonymous function-style
 
+// function main() {
+    
+//   var n = parseInt(readLine());
+//   a = readLine().split(' ');
+//   a = a.map(Number);
+//   // Write Your Code Here
+//   let numSwaps = 0;
+//   for(let i = 0; i < n; i++){
+//       let numberOfSwaps = 0;
+//       for(let j = 0; j < n; j++){
+//           if(a[j]> a[j+1]){
+//             // internal swap "function"
+//               let temp = a[j + 1];
+//               a[j + 1] = a[j];
+//               a[j] = temp;
+//               numberOfSwaps++
+//               numSwaps++
+//           }
+//       }
+//       if(numberOfSwaps === 0) break
+      
+//   }
+// console.log(`Array is sorted in ${numSwaps} swaps.`)
+// console.log(`First Element: ${a[0]}`)
+// console.log(`Last Element: ${a[n-1]}`)
+// }
 
+// } DAY 21 - no solution for Javascript so skipping!
 
 
 
